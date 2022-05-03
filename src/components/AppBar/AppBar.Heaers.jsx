@@ -30,12 +30,12 @@ const AppBarHeaers = ({userData}) => {
                             <SearchIcon/>
                         </IconButton>
                         <IconButton >
-                            <Badge badgeContent={2} color="secondary">
+                            <Badge badgeContent={2} color="secondary" variant="dot">
                                 <NotificationsIcon />
                             </Badge>
                         </IconButton>
                         <IconButton >
-                            <Badge badgeContent={3} color="secondary">
+                            <Badge badgeContent={3} color="secondary" variant='dot'>
                                 <MailIcon color='common.white' />
                             </Badge>
                         </IconButton>

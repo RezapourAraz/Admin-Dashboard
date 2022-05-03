@@ -3,13 +3,9 @@ import React from 'react';
 // Mui Components
 import { Box, Stack,Divider } from '@mui/material';
 import Profile from '../Cards/Profile.Cards';
+import SideBarLists from '../lists/SideBarLists';
 
-// const userData = [
-//     {
-//         userName: "Vahid Rezapour",
-//         userRole: "Admin"
-//     }
-// ]
+
 
 const Sidebar = ({userData}) => {
     return (
@@ -23,6 +19,9 @@ const Sidebar = ({userData}) => {
                 {userData.map((user , index)=> <Profile key={index} userData={user} />)}
             </Box>
             <Divider />
+            <Box p={1}>
+                <SideBarLists />
+            </Box>
         </Stack>
     );
 };

@@ -18,7 +18,7 @@ function App() {
         <Grid item xs={2.5}>
           <Sidebar userData={userData} />
         </Grid>
-        <Grid item xs={9.5}>
+        <Grid item xs={9.5} >
           <Main userData={userData} />
         </Grid>
     </Grid>

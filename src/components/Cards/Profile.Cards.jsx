@@ -15,7 +15,7 @@ const Profile = ({userData: {userName, userRole}}) => {
                     </Typography>
                 </Grid>
                 <Grid item xs={12}>
-                    <Typography variant="subtitle1" component='span' color='grey.800' alignItems='center'>
+                    <Typography variant="subtitle1" component='span' color='grey.500' alignItems='center'>
                         {userRole}
                     </Typography>
                 </Grid>
