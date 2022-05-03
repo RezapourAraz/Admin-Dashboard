@@ -14,7 +14,7 @@ const userData = [
 
 function App() {
   return (
-    <Grid container>
+    <Grid container >
         <Grid item xs={2.5}>
           <Sidebar userData={userData} />
         </Grid>

@@ -13,8 +13,8 @@ const Main = ({userData}) => {
         <>
         <Box >
             <AppBarHeaers userData={userData} />
-        </Box>
-        <Box>
+        </Box> 
+        <Box p={1} marginTop={2}>
             <Routes>
                 <Route path='/dashboard' element={<DashboardPage />} />
             </Routes>

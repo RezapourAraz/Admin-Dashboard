@@ -12,7 +12,7 @@ const AppBarHeaers = ({userData}) => {
 
     const [ menu, setMenu ] = useState(null)
     const open = Boolean(menu);
-    const { userName, UserRole } = userData;
+    const { userName } = userData;
 
     const handelClickOpen = (event) => {
         setMenu(event.currentTarget);
